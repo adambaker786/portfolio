@@ -9,6 +9,11 @@ const Main = () => {
                      <img src={ava} alt="здесь должна была быть аватарка" />
                 </div>
             </section>
+            <section className='projects'>
+                <div className="pet-projects">
+                    <h2>PET Projects</h2>
+                </div>
+            </section>
         </div>
     );
 };
