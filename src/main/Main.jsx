@@ -5,7 +5,9 @@ const Main = () => {
     return (
         <div className='main'>
             <section className='avatarka'>
-                <img src={ava} alt="здесь должна была быть аватарка" />
+                <div className='avatarka_content'>
+                     <img src={ava} alt="здесь должна была быть аватарка" />
+                </div>
             </section>
         </div>
     );
