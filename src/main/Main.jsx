@@ -1,5 +1,6 @@
 import React from 'react';
 import ava from '../img/avatar.jpg'
+import Projects from './projects/Projects';
 
 const Main = () => {
     return (
@@ -9,7 +10,7 @@ const Main = () => {
                      <img src={ava} alt="здесь должна была быть аватарка" />
                 </div>
             </section>
-            
+            <Projects></Projects>
         </div>
     );
 };
