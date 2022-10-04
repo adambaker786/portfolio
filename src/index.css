@@ -23,9 +23,14 @@ html, body {
   border-bottom-right-radius: 40%;
 }
 
+.avatarka img:hover{
+  animation-duration: 1s;
+  rotate: 145deg;
+}
+
 .projects {
   background-color: aquamarine;
   width: 100%;
   height: 100px;
-  
+
 }
