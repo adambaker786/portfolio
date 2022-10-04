@@ -11,8 +11,7 @@ html, body {
 }
 
 .avatarka_content{
-  display: flex;
-  justify-content: end;
+  
 }
 .avatarka img{
   max-width: 400px;
@@ -21,11 +20,24 @@ html, body {
   min-height: 350px;
   border-top-left-radius: 40%;
   border-bottom-right-radius: 40%;
+
+  position: relative;
+  left: 0;
+
+  animation-name: avatarka-anim;
+  animation-duration: 2s;
 }
 
-.avatarka img:hover{
-  animation-duration: 1s;
-  rotate: 145deg;
+@keyframes avatarka-anim{
+  0%{
+    left: 0;
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100%{
+    left: 500px;
+  }
 }
 
 .projects {
