@@ -18,14 +18,14 @@ html, body {
   min-width: 200px;
   max-height: 500px;
   min-height: 350px;
-  border-top-left-radius: 40%;
-  border-bottom-right-radius: 40%;
 
   position: relative;
   left: 0;
 
   animation-name: avatarka-anim;
-  animation-duration: 2s;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes avatarka-anim{
@@ -34,6 +34,7 @@ html, body {
   }
   50% {
     transform: rotate(45deg);
+    border-radius: 50%;
   }
   100%{
     left: 500px;
