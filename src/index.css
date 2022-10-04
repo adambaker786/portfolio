@@ -26,7 +26,7 @@ html, body {
   animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+  animation-direction: alternate;
 }
 .avatarka_content:hover img{
   animation-play-state: paused;
