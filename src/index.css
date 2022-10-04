@@ -11,7 +11,7 @@ html, body {
 }
 
 .avatarka_content{
-  
+  width: 100%;
 }
 .avatarka img{
   max-width: 400px;
@@ -23,21 +23,23 @@ html, body {
   left: 0;
 
   animation-name: avatarka-anim;
-  animation-duration: 10s;
+  animation-duration: 8s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
-
+.avatarka_content:hover img{
+  animation-play-state: paused;
+}
 @keyframes avatarka-anim{
   0%{
     left: 0;
   }
   50% {
-    transform: rotate(45deg);
     border-radius: 50%;
   }
   100%{
-    left: 500px;
+    left: 700px;
   }
 }
 
