@@ -49,3 +49,14 @@ html, body {
   height: 100px;
 
 }
+
+.steck {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container{
+  width: 100px;
+  border: 1px solid black;
+}
