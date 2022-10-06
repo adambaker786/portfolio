@@ -57,6 +57,12 @@ html, body {
 }
 
 .container{
-  width: 100px;
+  width: 200px;
   border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container:hover{
+  background-color: red;
 }
