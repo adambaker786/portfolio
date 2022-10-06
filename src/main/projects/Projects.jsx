@@ -18,6 +18,10 @@ const Projects = () => {
                     <div className="Redux">Redux</div></div>
                 <div className="container">
                     <div className="figma">Figma</div></div>
+                <div className="container">
+                    <div className="figma">Figma</div></div>
+                <div className="container">
+                    <div className="figma">Figma</div></div>
             </div>
         </div>
     );
