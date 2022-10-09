@@ -22,6 +22,8 @@ const Projects = () => {
                     <div className="figma">Figma</div></div>
                 <div className="container">
                     <div className="figma">Figma</div></div>
+                    <div className="container">
+                    <div className="figma">Figma</div></div>
             </div>
         </div>
     );
