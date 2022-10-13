@@ -1,0 +1,9 @@
+header{
+    height: 140px;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 40px 60px 40px 60px;
+    justify-content: space-between;
+}
