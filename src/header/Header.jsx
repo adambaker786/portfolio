@@ -10,17 +10,19 @@ const Header = () => {
         <div className={styles.header}>
             <div className={styles.header_content}>
                 <div className={styles.find_me}>
-                    <div>Fin Me on</div>
+                    <div className={styles.white_style}>Fin Me on</div>
                     <div className={styles.social_icon}><img src={whatsapp} alt='whatsapp icon'/></div>
                     <div className={styles.social_icon}><img src={facebook} alt='facebook icon'/></div>
                     <div className={styles.social_icon}><img src={instagram} alt='facebook icon'/></div>
                     <div className={styles.social_icon}><img src={linkedin} alt='facebook icon'/></div>
                 </div>
-                <nav className='menu'>
-                    <ul>
-                        <li><a href="#about_me">Обо мне</a></li>
-                        <li><a href="#my_projects">Мои проекты</a></li>
-                        <li><a href="my_adress">Мои данные</a></li>
+                <div ></div>
+                <nav className={styles.about_me_nav}>
+                    <ul className={styles.about_me_menu}>
+                        <li><a className={styles.white_style} href="#about_me">Home</a></li>
+                        <li><a className={styles.white_style} href="#my_projects">About</a></li>
+                        <li><a className={styles.white_style} href="my_adress">Project</a></li>
+                        <li><a href="contact">Contact Me</a></li>
                     </ul>
                 </nav>
             </div>

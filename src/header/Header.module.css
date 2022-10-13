@@ -1,6 +1,6 @@
 .header{
     height: 140px;
-    width: 1440px;
+    
     left: 0px;
     top: 0px;
     border-radius: 0px;
@@ -10,6 +10,7 @@
 .header_content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .find_me {
     height: 50px;
@@ -19,8 +20,33 @@
     align-items: center;
 }
 
+.white_style{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
 .social_icon {
     width: 50px;
     height: 50px;
-    
+}
+
+.about_me_nav{
+    width: 462px;
+}
+.about_me_menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 60px 0px 0px;
+    gap: 40px;
+
+    height: 60px;
+}
+.about_me_menu ul li{
+    text-decoration: none;
 }
