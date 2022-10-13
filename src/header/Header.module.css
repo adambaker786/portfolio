@@ -1,3 +1,10 @@
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
 .header{
     height: 140px;
     
@@ -47,6 +54,33 @@
 
     height: 60px;
 }
-.about_me_menu ul li{
-    text-decoration: none;
+
+.contact_me_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    /* gap: 10px; */
+
+    border: 2px solid #FBFF22;
+    border-radius: 5px;
+
+    width: 118px;
+    height: 25px;
+
+    /* Heading 6 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    color: #FBFF22;
+}
+
+.contact_me_button:hover{
+    background-color: #fbff222f;
 }
