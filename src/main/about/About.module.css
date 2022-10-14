@@ -1,0 +1,132 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.greeting {
+    width: 104px;
+    height: 54px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.me {
+    width: 576px;
+    height: 78px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+
+.me span{
+    color: #FBFF22;
+}
+
+.frontend {
+    height: 45px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #999999;
+}
+
+.line {
+    width: 240px;
+    height: 0px;
+
+    /* Sr Grey */
+
+    border: 3px dotted #999999;
+    border-radius: 1px;
+}
+.description{
+    width: 619px;
+    height: 204px;
+    /* Body 5 */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+
+    /* Sr Grey */
+
+    color: #999999;
+}
+
+.download_buttons{
+    display: flex;
+}
+
+.cv_download_button{
+    padding: 15px 20px;
+    gap: 10px;
+
+    width: 203px;
+    height: 60px;
+   
+    background: #FBFF22;
+    border-radius: 5px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    color: #000000;
+}
+
+.more_info {
+    padding-left: 30px;
+}
+
+.more_info_button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+
+    width: 203px;
+    height: 60px;
+
+    /* White */
+
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+
+    /* text */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.more_info_button:hover{
+    background-color: #ffffff4c;
+}
+
+.avatar img{
+    max-width: 400px;
+    min-width: 200px;
+    max-height: 500px;
+    min-height: 350px;
+  }
+ 
