@@ -123,10 +123,24 @@
     background-color: #ffffff4c;
 }
 
+.about_ava{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.avatar{
+    margin-top: 30px;
+    margin-right: 7%;
+}
 .avatar img{
-    max-width: 400px;
+    max-width: 506px;
     min-width: 200px;
-    max-height: 500px;
+    max-height: 509px;
     min-height: 350px;
+
+    box-shadow: 
+    -50px -50px 0 -40px #FBFF22,
+    50px 50px 0 -40px #FBFF22;
   }
  
