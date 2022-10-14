@@ -7,11 +7,11 @@ const Projects = () => {
         <div className={styles.projects}>
             <div className={styles.project_text}>
                 <div className={styles.project_big_text}>
-                    MY PROJECT
-                </div>
-                <div className={styles.project_text}>
                     MY PROJECTS
                 </div>
+                {/* <div className={styles.project_text}>
+                    MY PROJECTS
+                </div> */}
             </div>
             <div className={styles.project_cards}>
                 <div className={styles.project_cards_content}>
