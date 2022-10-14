@@ -7,9 +7,6 @@ a{
 }
 .header{
     height: 140px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
     padding: 40px 0px 40px 0px;
     justify-content: space-between;
 }
@@ -64,8 +61,7 @@ a{
     border: 2px solid #FBFF22;
     border-radius: 5px;
 
-    width: 118px;
-    height: 25px;
+   
 
     /* Heading 6 */
 
