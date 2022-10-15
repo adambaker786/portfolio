@@ -1,0 +1,20 @@
+.footer{
+    width: 100%;
+}
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_text {
+    margin-left: 30px;
+    height: 54px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
