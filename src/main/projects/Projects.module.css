@@ -21,11 +21,23 @@
     line-height: 300px;
     /* identical to box height */
     color: rgba(153, 153, 153, 0.3);;
-
-
 }
+
+.project_text{
+    width: 100%;
+    height: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FBFF22;
+}
+
 .project_cards{
-    margin-top: 200px;
+    margin-top: 30px;
     width: 1057px;
     height: 437px;
     background: #131313;
