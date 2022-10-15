@@ -4,7 +4,7 @@ import estate from '../../img/group.png'
 
 const Projects = () => {
     return (
-        <div className={styles.projects}>
+        <div name="project" className={styles.projects}>
             <div className={styles.project_text}>
                 {/* <div className={styles.project_big_text}>
                     MY PROJECTS
