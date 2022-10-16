@@ -88,6 +88,8 @@
     line-height: 30px;
     align-items: center;
     color: #000000;
+
+    cursor: pointer;
 }
 
 .more_info {
