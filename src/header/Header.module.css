@@ -8,12 +8,12 @@ a{
 .header{
     height: 140px;
     padding: 40px 0px 40px 0px;
-    justify-content: space-between;
 }
 .header_content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .find_me {
     height: 50px;

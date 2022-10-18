@@ -1,7 +1,8 @@
 .about {
-    margin-top: 120px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .greeting {
@@ -68,6 +69,7 @@
 }
 
 .download_buttons{
+    margin-top: 60px;
     display: flex;
 }
 
@@ -133,7 +135,7 @@
 }
 
 .avatar{
-    margin-top: 30px;
+    margin-top: 80px;
     margin-right: 7%;
 }
 .avatar img{

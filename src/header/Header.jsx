@@ -16,7 +16,6 @@ const Header = () => {
                     <div className={styles.social_icon}><a href="https://www.instagram.com/adam.baker.786/" target="_blank"><img src={instagram} alt='facebook icon'/></a></div>
                     <div className={styles.social_icon}><a href=""><img src={linkedin} alt='facebook icon'/></a></div>
                 </div>
-                <div ></div>
                 <nav className={styles.about_me_nav}>
                     <ul className={styles.about_me_menu}>
                         <li><a className={styles.white_style} href="#about_me">Home</a></li>
