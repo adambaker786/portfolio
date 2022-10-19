@@ -3,41 +3,8 @@
 }
 body{
   background: #1E1E1E;  
-  min-width: 1440px;
 }
 
 
-.avatarka {
-  width: 100%;
-}
 
-.avatarka_content{
-  width: 100%;
-}
-
-
-.projects {
-  width: 100%;
-
-}
-
-.steck {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.container{
-  width: 200px;
-  border: 1px solid black;
-  border-radius: 5px;
-  text-align: center;
-  margin-bottom: 10px;
-
-}
-
-
-.container:hover{
-  background-color: red;
-}
 
