@@ -15,8 +15,8 @@ const About = () => {
                 <div className={styles.line}></div>
                 <p className={styles.description}>
                     I'm Adam Sadulaev, a frontend developer. 
-                    I love creating websites and find peace in this. I'm interested in horizontal development.
-                    Currently working on PET Projects and every day I'm lerning something new. 
+                    I love creating websites and find peace in this. I'm interesting in horizontal development.
+                    Currently working on PET Projects and every day I'm learning something new. 
                     All my Projects are created on React. <br></br>
                     If you are interested in my portfolio, then I will be happy to take advantage of the opportunity for career growth within your company.
                     I will be glad to become a part of your team.
