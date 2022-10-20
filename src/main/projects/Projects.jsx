@@ -6,9 +6,6 @@ const Projects = () => {
     return (
         <div name="project" className={styles.projects}>
             <div className={styles.project_text}>
-                {/* <div className={styles.project_big_text}>
-                    MY PROJECTS
-                </div> */}
                 <div className={styles.project_text}>
                     MY PROJECTS
                 </div>
